@@ -1,0 +1,19 @@
+{
+  "name": "it-cctv-fullstack",
+  "version": "1.0.0",
+  "description": "IT-CCTV Full Stack Application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": ["fullstack", "react", "express", "mongodb"],
+  "author": "IT-CCTV Team",
+  "license": "MIT"
+}
